@@ -22,6 +22,7 @@ android {
                 "src/rtc_base/java",
                 "src/api/java",
                 "src/generated/java",
+                "src/jni_zero/java",
             )
             jniLibs.srcDir("src/main/jni")
         }
@@ -49,6 +50,7 @@ android {
 
 dependencies {
     implementation(libs.androidx.annotation)
+    implementation(libs.junit)
 }
 
 mavenPublishing {

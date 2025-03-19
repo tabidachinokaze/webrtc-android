@@ -2,9 +2,11 @@
 agp = "8.9.0"
 annotation = "1.9.1"
 kotlin = "2.1.10"
+junit = "4.13.2"
 
 [libraries]
 androidx-annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
 
 [plugins]
 android-library = { id = "com.android.library", version.ref = "agp" }
