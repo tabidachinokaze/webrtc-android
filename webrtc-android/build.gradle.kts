@@ -54,7 +54,7 @@ dependencies {
 }
 
 mavenPublishing {
-    coordinates("moe.tabidachi", "webrtc-android", "7420f62a24")
+    coordinates("moe.tabidachi", "webrtc-android", "05eb774a24")
 
     pom {
         name.set("WebRTC Android")
